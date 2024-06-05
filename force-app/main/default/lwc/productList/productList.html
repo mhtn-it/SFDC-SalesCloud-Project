@@ -1,0 +1,30 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-p-around_medium lgc-bg">
+            <div if:true={searchable}>
+                <lightning-input type="text" label="Search Key"></lightning-input>
+            </div>
+        </div>
+        <div if:true={products}>
+            <template for:each={products} for:item="product">
+                <lightning-layout key={product.Id} vertical-align="center">
+                    <lightning-layout-item padding="around-small">
+                        <p>{product.Name}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small">
+                        <p>{product.Family}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small">
+                        <p>{product.ProductCode}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small">
+                        <p>{product.MSRP__c}</p>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small">
+                        <p>{product.Description}</p>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </template>
+        </div>
+    </article>
+</template>
