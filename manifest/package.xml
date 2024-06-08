@@ -74,6 +74,10 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>ChatterExtension</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>CleanDataService</name>
 	</types>
 	<types>
@@ -103,6 +107,10 @@
 	<types>
 		<members>*</members>
 		<name>CustomApplicationComponent</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomFeedFilter</name>
 	</types>
 	<types>
 		<members>*</members>
@@ -279,6 +287,10 @@
 	<types>
 		<members>*</members>
 		<name>PlatformEventChannelMember</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>PostTemplate</name>
 	</types>
 	<types>
 		<members>*</members>

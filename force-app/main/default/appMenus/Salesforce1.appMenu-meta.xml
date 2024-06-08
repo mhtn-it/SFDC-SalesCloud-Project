@@ -5,6 +5,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Feed</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>MyDay</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
@@ -22,6 +26,10 @@
     </appMenuItems>
     <appMenuItems>
         <name>People</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Groups</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
