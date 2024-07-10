@@ -1,0 +1,30 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card icon-name="standard:account" variant="base">
+      <div slot="title">
+          Show Picklist value by Record Type
+      </div>
+      <div slot="actions">
+        
+      </div>
+      <div slot="footer">
+    
+      </div>
+      <div>
+        <div class="slds-card">
+            <lightning-combobox name="fieldList" label='Field List' options={lstRecordTypes} placeholder="Select Field" value={selectedRecordType} onchange={handleChange}></lightning-combobox>
+        </div>
+        <lightning-button 
+          variant="brand"
+          label="Get" 
+          onclick={handleClick} 
+        ></lightning-button>
+        <lightning-datatable
+                key-field="id"
+                data={result}
+                columns={columns}>
+        </lightning-datatable>
+        
+      </div>
+    </lightning-card>
+</template>
